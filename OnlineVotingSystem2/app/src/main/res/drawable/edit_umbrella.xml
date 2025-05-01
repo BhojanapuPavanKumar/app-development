@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background image layer -->
+    <item android:drawable="@drawable/umbrella" />
+
+    <!-- Overlay shape layer -->
+    <item>
+        <shape>
+            <corners android:radius="180dp" />
+            <stroke
+                android:color="#FF000000" />
+        </shape>
+    </item>
+
+</layer-list>
